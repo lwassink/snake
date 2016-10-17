@@ -1,0 +1,62 @@
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  border-bottom: 10px solid black;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 120px;
+  margin 0 auto;
+  height: 120px;
+}
+
+li {
+  display: block;
+  height: 30px;
+  width: 20px;
+  background: grey;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+}
+
+.small {
+  width: 50px;
+}
+
+.medium {
+  width: 75px;
+}
+
+.large {
+  width: 100px;
+}
+
+.base {
+  border-radius: 0;
+  height: 20px;
+  width: 140px;
+  background: tan;
+}
+
+.unselected:hover {
+  border-color: orange;
+}
+
+.selected {
+  border-color: blue;
+}
+
+.invisible {
+  background: transparent;
+}
