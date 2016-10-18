@@ -13,6 +13,8 @@ ul {
   width: 120px;
   margin 0 auto;
   height: 120px;
+  padding: 0;
+  padding-bottom: 10px;
 }
 
 li {
